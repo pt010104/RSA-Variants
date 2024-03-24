@@ -1,0 +1,10 @@
+Key Size	Dataset Type	Avg. Encryption Time	Avg. Decryption Time	Avg. Memory Usage	Avg. CPU Usage
+2048	random_data	0.335783	0.000166	0.0	9.19
+2048	structured_data	0.005165	0.115345	0.0	12.13
+2048	text_data	0.006605	0.103398	0.0	6.61
+3072	random_data	0.321068	0.000157	0.0	-2.34
+3072	structured_data	0.007524	0.294873	27033.6	7.71
+3072	text_data	0.007978	0.294679	0.0	18.61
+4096	random_data	0.321176	0.000147	0.0	8.34
+4096	structured_data	0.011735	0.690864	0.0	9.87
+4096	text_data	0.012527	0.673790	0.0	12.53
