@@ -1,0 +1,28 @@
+RSA Variant	Key Size	Dataset Type	Avg. Encryption Time	Avg. Decryption Time	Avg. Memory Usage	Avg. CPU Usage
+Batch RSA	2048	random_data	0.208861	0.000077	0.0	2.39
+Batch RSA	2048	structured_data	0.002301	0.048332	38092.8	-0.45
+Batch RSA	2048	text_data	0.002352	0.047193	0.0	9.19
+Batch RSA	3072	random_data	0.177329	0.000093	0.0	0.42
+Batch RSA	3072	structured_data	0.004316	0.155380	0.0	12.52
+Batch RSA	3072	text_data	0.004028	0.152929	0.0	15.86
+Batch RSA	4096	random_data	0.317371	0.000109	0.0	-8.16
+Batch RSA	4096	structured_data	0.006592	0.353725	0.0	10.19
+Batch RSA	4096	text_data	0.006630	0.352793	0.0	11.45
+Multi-prime RSA	2048	random_data	0.355593	0.000116	0.0	3.54
+Multi-prime RSA	2048	structured_data	0.002650	0.053760	0.0	1.09
+Multi-prime RSA	2048	text_data	0.002625	0.047725	0.0	11.33
+Multi-prime RSA	3072	random_data	0.398140	0.000099	0.0	3.79
+Multi-prime RSA	3072	structured_data	0.004305	0.158059	0.0	16.10
+Multi-prime RSA	3072	text_data	0.004448	0.156146	0.0	15.17
+Multi-prime RSA	4096	random_data	0.175839	0.000080	0.0	4.72
+Multi-prime RSA	4096	structured_data	0.006624	0.362342	0.0	8.33
+Multi-prime RSA	4096	text_data	0.007131	0.353383	0.0	10.92
+RSA-AEP	2048	random_data	0.000000	0.000000	0.0	0.00
+RSA-AEP	2048	structured_data	0.006950	0.061360	0.0	320.02
+RSA-AEP	2048	text_data	0.005566	0.053036	0.0	331.23
+RSA-AEP	3072	random_data	0.000000	0.000000	0.0	0.00
+RSA-AEP	3072	structured_data	0.007860	0.161992	0.0	551.62
+RSA-AEP	3072	text_data	0.007210	0.162952	0.0	598.79
+RSA-AEP	4096	random_data	0.000000	0.000000	0.0	0.00
+RSA-AEP	4096	structured_data	0.010887	0.370711	0.0	732.78
+RSA-AEP	4096	text_data	0.009930	0.352339	0.0	761.58
